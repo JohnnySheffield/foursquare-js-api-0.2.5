@@ -1,22 +1,21 @@
 #Foursquare-js-api-0.2.5
 
+
 Foursquare-js-api is a standalone javascript wrapper for the Foursquare Api (v2). Using this api you can currently access all available endpoints.
 
 
 ##Questions, issues & feature requests
 
 Questions are preferred to be posted in the google group set up for this project; http://groups.google.com/group/foursquare-js-api
-
 Issues and feature requests can be posted as an issue.
 
-##WARNING - Version 0.2 released
+##Version 0.2 released (Feb 01, 2012)
 
 This version of the library alters all methods in such a manner that the applications build upon the older versions may not work anymore.
 
 - Refactored methods - Added few examples
 - Now using window.localStorage when available to store credentials.
 - Fixed issue with DOM Exception 18 for mobile browsers.
-
 - Updated venuesClient to have all the latest endpoints available.
 - Added managed example for venues endpoint.
 
